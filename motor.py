@@ -1,13 +1,13 @@
 class Motor:
     def __init__(self):
-        self.velocity=0.5
+        self.speed=0.5
 
     def set_speed(self, speed):
-        self.velocity = speed
+        self.speed = speed
 
     def speed_up(self):
-        self.velocity = 2 * self.velocity
+        self.speed = 2 * self.speed
 
     def slow_down(self):
-        self.velocity = 0.5 * self.velocity
+        self.speed = 0.5 * self.speed
 
